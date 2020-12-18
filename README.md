@@ -1,2 +1,4 @@
 # text_similarity_calculator
-Input two texts an get a score on their overall similarity.
+
+Run main.py and you will be prompted to enter two texts.
+Once provided, the file will return an overall score on on text similarity.
