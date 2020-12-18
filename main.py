@@ -171,7 +171,7 @@ total_words_between_both_lists = get_total_words(text_1_words, text_2_words)
 
 print("\n–––––Text Similarity–––––")
 ## the denominator is the total_words_between_both_lists squared.
-## numerator is the summation of the total words in each phrase squared.
+## the numerator is the summation of the total words in each exact match phrase squared.
 ## this includes single word phrases (regular overlapping words)
 ## the idea here is that the same words in a totally different order should get credit, but nowhere near as much credit as the same words in the same order.
 text_similarity_denominator = total_words_between_both_lists*total_words_between_both_lists
